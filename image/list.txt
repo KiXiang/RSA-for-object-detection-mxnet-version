@@ -1,0 +1,11 @@
+./image/test_image/1.jpg
+./image/test_image/test_0.jpg
+./image/test_image/test_1.jpg
+./image/test_image/test_2.jpg
+./image/test_image/test_3.jpg
+./image/test_image/test_4.jpg
+./image/test_image/test_5.jpg
+./image/test_image/test_6.jpg
+./image/test_image/test_7.jpg
+./image/test_image/test_8.jpg
+./image/test_image/test_9.jpg

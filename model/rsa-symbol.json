@@ -1,0 +1,251 @@
+{
+  "nodes": [
+    {
+      "op": "null", 
+      "name": "data", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_transfer_1_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_transfer_1_bias", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "conv_transfer_1", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[0, 0, 0], [1, 0, 0], [2, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "res2b_trans_1_relu", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[3, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_transfer_2_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_transfer_2_bias", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "conv_transfer_2", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": [[4, 0, 0], [5, 0, 0], [6, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "res2b_trans_2_relu", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[7, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_transfer_3_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_transfer_3_bias", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "conv_transfer_3", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[8, 0, 0], [9, 0, 0], [10, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "res2b_trans_3_relu", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[11, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_transfer_4_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_transfer_4_bias", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "conv_transfer_4", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[12, 0, 0], [13, 0, 0], [14, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "res2b_trans_4_relu", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[15, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_transfer_5_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_transfer_5_bias", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "conv_transfer_5", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "False", 
+        "num_filter": "256", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[16, 0, 0], [17, 0, 0], [18, 0, 0]]
+    }
+  ], 
+  "arg_nodes": [
+    0, 
+    1, 
+    2, 
+    5, 
+    6, 
+    9, 
+    10, 
+    13, 
+    14, 
+    17, 
+    18
+  ], 
+  "node_row_ptr": [
+    0, 
+    1, 
+    2, 
+    3, 
+    4, 
+    5, 
+    6, 
+    7, 
+    8, 
+    9, 
+    10, 
+    11, 
+    12, 
+    13, 
+    14, 
+    15, 
+    16, 
+    17, 
+    18, 
+    19, 
+    20
+  ], 
+  "heads": [[19, 0, 0]], 
+  "attrs": {"mxnet_version": ["int", 10300]}
+}
